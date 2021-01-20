@@ -1,23 +1,23 @@
 class Post {
-    constructor (name, message, like, comment, share, upload) {
-    this.name = name;
+    constructor (userName, message, retweet, love, reply, upload) {
+    this.userName = userName;
     this.message = message;
 }
 
-    like () {
-    return post.message = `${this.name} liked your post!`;   
+    retweet () {
+    return post.message = `${this.name} retweeted your post!`;   
 }
 
-    comment () {
-     return post.message = `${this.name} left a comment on your post!`;   
+    love () {
+     return post.message = `${this.name} loved your post!`;   
 }
 
-    share () {
-      return post.message = `${this.name} shared your post!`;   
+    reply () {
+      return post.message = `${this.name} replied to your post!`;   
 }
 
     upload () {
-        return post.message = `${this.name} updated post!`;    
+        return post.message = `${this.name} uploaded a picture!`;    
 }
 
 }
