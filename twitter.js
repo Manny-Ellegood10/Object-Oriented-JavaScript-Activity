@@ -5,22 +5,22 @@ class Post {
 }
 
     retweet () {
-    return post.message = `${this.name} retweeted your post!`;   
+    return post.message = `${this.userName} retweeted your post!`;   
 }
 
     love () {
-     return post.message = `${this.name} loved your post!`;   
+     return post.message = `${this.userName} loved your post!`;   
 }
 
     reply () {
-      return post.message = `${this.name} replied to your post!`;   
+      return post.message = `${this.userName} replied to your post!`;   
 }
 
     upload () {
-        return post.message = `${this.name} uploaded a picture!`;    
+        return post.message = `${this.userName} uploaded a picture!`;    
 }
 
 }
     
     myPost = new Post("Azeez", "Azeez loves to code");
-    console.log(myPost.name + " " + myPost.message);
+    console.log(`${myPost.userName} ${myPost.message}`);
